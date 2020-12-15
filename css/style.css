@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap');
+:root{
+    
+    --f7-navbar-bg-color: #DD0D0D; /*navbar*/
+    --f7-navbar-text-color:#fff;
+    --f7-bars-bg-color:#fff;/*toolbar*/
+	--color-gris: #8f8f8f;
+	--color-negro: #000;
+    --fonfo-gris: #eaebeb;
+	--color-rojo: #DD0D0D;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	color: var(--color-gris);
+}
+
+h1,h2,h3,h5,h5,h6{
+	color: var(--color-negro);
+	margin-botton: 5px;
+	margin-top: 2px;
+	
+}
+.navbar a{
+	
+	color:#fff;
+}
+.img-fluid{
+	max-width: 100%;
+}
+
+.intro h2{
+	font-size: 20px;
+	font-weight: 300;
+	
+}
+
+.intro h2 span{
+	font-weight: 500;
+	
+}
+
+.intro h3{
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.card-intro{
+	
+	background-color: var(--color-gris);
+	color: #fff;
+	box-shadow: none;
+	border-radius: 20px;
+	
+}
+
+.card-intro h3{
+	
+	color: #fff;
+	font-size: 22px;
+	margin-bottom:  40px;
+}
+
+.card-intro .precio{
+	background-color: var(--color-gris);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.card-intro  img{
+	
+	width: 150px;
+}
+
+.card-footer{
+	
+	background-color: var(--color-rojo);
+	text-align: center;
+	color:#fff;
+}
+.bloc-title {
+	font-size: 22px;
+	overflow: initial;
+	color:var(--color-rojo);
+	font-weight: 500;
+}
+
+.card-popular .card-content{
+	background-color: var(--fondo-gris);
+	text-align: center;
+}
+
+.card-popular img{
+	text-align: center;
+	width: 120px;
+}
+
+
+.card-popular h3 {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.card-popular h4 {
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+}
+.card-popular .card-footer{
+	background-color: var(--color-rojo);
+	color: #fff;
+}
+
+.card-popular .card-footer a{
+	
+	color: #fff;
+}
+
+.toolbar-bottom a,
+.toolbar-bottom i{
+	
+	color: var(--color-rojo);
+}
+
+.page-content h2{
+
+	color: var(--color-rojo);
+}
+
+.panel-top h2{
+	color: var(--color-rojo);
+	padding-top: 30px;
+	text-align: center;
+}
+	
+.panel-top i{
+	color: var(--color-rojo);
+	
+}
+
+.card-intro h5{
+	color: var(--color-rojo);
+	
+}
